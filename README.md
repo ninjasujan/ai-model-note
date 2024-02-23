@@ -58,3 +58,19 @@ Specify the desired format for the output. This could be in JSON, plain text, or
 Indicate the tone of the conversation, whether casual or formal, to guide the model appropriately. Use keywords to convey the desired tone effectively. For example, specify keywords to help the GPT model understand the tone of the conversation.
 
 By considering and incorporating these components effectively, you can craft prompts that yield more accurate and relevant outputs from the GPT model.
+
+#### GPT API's Syntax
+
+Roles in GPT API prompts
+
+- System - Persona + context
+- User - Task + Tone
+- Assistant - Exemplar + Format
+
+Key Points to consider in API Design
+
+- Temperature.
+  Low - To derive more concentrated and deterministic output
+  High - To get more imaginative
+- Response Length - Depends on the model
+- Roles - System, user and Assistant
